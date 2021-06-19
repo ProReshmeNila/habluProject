@@ -1,0 +1,129 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+/* Header part */
+section header{
+    margin-top: 20px;
+}
+section header ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+section header ul li{
+    padding: 0 10px;
+    list-style: none;
+}
+section header ul li a{
+    color: #212121;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+section header ul li button{
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+section header ul li a:hover{
+    text-decoration: underline;
+}
+
+/*main part */
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+main .searchBox{
+    width: 500px;
+    position: relative;
+   
+}
+.searchBox input{
+    width: 100%;
+    padding: 13px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    outline: 0;
+    padding-left: 52px;
+    border: 1px solid #f2f2f2;
+}
+.searchBox input:hover{
+    box-shadow: 6px 6px 22px #ddd;
+}
+.searchBox input:focus{ box-shadow: 6px 6px 22px #ddd;}
+.searchIcon {
+	position: absolute;
+	top: 0;
+	justify-content: space-between;
+	display: flex;
+	width: 100%;
+    padding: 12px 20px;
+    pointer-events: none;
+    align-items: center;
+}
+.btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn button {
+    background: #f2f2f2;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 15px;
+}
+.btn button:hover {
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    
+}
+.footerTop{
+    padding: 0px 15px;
+    border-bottom: 1px solid #ddd;
+    color: #70757a;
+}
+.footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .row ul{
+    display: flex;
+}
+.footer .row ul li{
+    list-style: none;
+    padding: 10px 15px;
+}
+.footer .row ul li a{
+    text-decoration: none;
+    color: #70757a;
+}
+.footer .row ul li a:hover{
+    text-decoration: underline;
+}
+/* footer part */
